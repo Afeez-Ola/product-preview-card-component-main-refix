@@ -23,7 +23,7 @@ module.exports = {
       white: "hsl(0, 0%, 100%)",
     },
     fontFamily: {
-      Montserrat: ["Manrope", "serif"],
+      Montserrat: ["Montserrat", "serif"],
       Fraunces: ["Fraunces", "serif"]
     },
     fontWeight: {

@@ -624,44 +624,16 @@ video {
   display: none;
 }
 
-.size-full {
-  width: 100%;
-  height: 100%;
-}
-
-.size-20 {
-  width: 5rem;
-  height: 5rem;
-}
-
-.size-11\/12 {
-  width: 91.666667%;
-  height: 91.666667%;
-}
-
-.size-11 {
-  width: 2.75rem;
-  height: 2.75rem;
+.h-3\/5 {
+  height: 60%;
 }
 
 .h-screen {
   height: 100vh;
 }
 
-.h-3\/5 {
-  height: 60%;
-}
-
 .h-3 {
   height: 0.75rem;
-}
-
-.w-11\/12 {
-  width: 91.666667%;
-}
-
-.w-11 {
-  width: 2.75rem;
 }
 
 .w-full {
@@ -696,68 +668,49 @@ video {
   justify-content: normal;
 }
 
-.justify-center {
-  justify-content: center;
+.justify-start {
+  justify-content: flex-start;
 }
 
-.gap-8 {
-  gap: 2rem;
+.justify-center {
+  justify-content: center;
 }
 
 .gap-6 {
   gap: 1.5rem;
 }
 
+.gap-8 {
+  gap: 2rem;
+}
+
+.rounded {
+  border-radius: 0.25rem;
+}
+
+.rounded-sm {
+  border-radius: 0.125rem;
+}
+
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
 .border {
   border-width: 1px;
 }
 
-.bg-\[\] {
-  background-color: ;
-}
-
-.bg-\[\"\"\] {
-  background-color: "";
-}
-
-.bg-\[url\(\'\'\)\] {
-  background-image: url('');
-}
-
-.bg-\[url\(\'image\/\'\)\] {
-  background-image: url('image/');
-}
-
-.bg-\[url\(\'\/image\/\'\)\] {
-  background-image: url('/image/');
-}
-
-.bg-\[url\(\'\/image\/image-product-mobile\.jpg\'\)\] {
-  background-image: url('/image/image-product-mobile.jpg');
-}
-
-.bg-\[url\(\'\.\/image\/image-product-mobile\.jpg\'\)\] {
-  background-image: url('./image/image-product-mobile.jpg');
-}
-
-.bg-\[url\(\'\.\.\/image\/image-product-mobile\.jpg\'\)\] {
-  background-image: url('../image/image-product-mobile.jpg');
+.bg-cyan {
+  --tw-bg-opacity: 1;
+  background-color: hsl(158 36% 37% / var(--tw-bg-opacity, 1));
 }
 
 .bg-\[url\(\'\.\.\/images\/image-product-mobile\.jpg\'\)\] {
   background-image: url('../images/image-product-mobile.jpg');
 }
 
-.bg-contain {
-  background-size: contain;
-}
-
 .bg-cover {
   background-size: cover;
-}
-
-.bg-center {
-  background-position: center;
 }
 
 .bg-top {
@@ -772,35 +725,21 @@ video {
   padding: 2rem;
 }
 
-.pb-24 {
-  padding-bottom: 6rem;
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .pb-36 {
   padding-bottom: 9rem;
 }
 
-.font-Montserrat {
-  font-family: Manrope, serif;
-}
-
 .font-Fraunces {
   font-family: Fraunces, serif;
 }
 
-.text-xs {
-  font-size: 0.75rem;
-  line-height: 1rem;
-}
-
-.text-base {
-  font-size: 1rem;
-  line-height: 1.5rem;
-}
-
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+.font-Montserrat {
+  font-family: Montserrat, serif;
 }
 
 .text-4xl {
@@ -808,9 +747,24 @@ video {
   line-height: 2.5rem;
 }
 
-.text-sm {
-  font-size: 0.875rem;
-  line-height: 1.25rem;
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
 }
 
 .font-bold {
@@ -821,41 +775,16 @@ video {
   text-transform: uppercase;
 }
 
-.leading-6 {
-  line-height: 1.5rem;
-}
-
-.leading-10 {
-  line-height: 2.5rem;
-}
-
-.leading-loose {
-  line-height: 2;
-}
-
 .leading-normal {
   line-height: 1.5;
 }
 
-.leading-snug {
-  line-height: 1.375;
-}
-
-.tracking-widest {
-  letter-spacing: 0.1em;
-}
-
-.tracking-\[\.3rem\] {
-  letter-spacing: .3rem;
+.leading-relaxed {
+  line-height: 1.625;
 }
 
 .tracking-\[0\.3rem\] {
   letter-spacing: 0.3rem;
-}
-
-.text-blue-default {
-  --tw-text-opacity: 1;
-  color: hsl(228 12% 48% / var(--tw-text-opacity, 1));
 }
 
 .text-blue-dark {
@@ -863,8 +792,31 @@ video {
   color: hsl(212 21% 14% / var(--tw-text-opacity, 1));
 }
 
+.text-blue-default {
+  --tw-text-opacity: 1;
+  color: hsl(228 12% 48% / var(--tw-text-opacity, 1));
+}
+
+.text-cyan {
+  --tw-text-opacity: 1;
+  color: hsl(158 36% 37% / var(--tw-text-opacity, 1));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: hsl(0 0% 100% / var(--tw-text-opacity, 1));
+}
+
 .underline {
   text-decoration-line: underline;
+}
+
+.line-through {
+  text-decoration-line: line-through;
+}
+
+.decoration-blue-default {
+  text-decoration-color: hsl(228, 12%, 48%);
 }
 
 .outline {
