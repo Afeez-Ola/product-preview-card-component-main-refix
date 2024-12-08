@@ -8,6 +8,10 @@ module.exports = {
         xl: "1440px"
       },
     },
+    backgroundImage: {
+        "product-mobile": "url('./images/image-product-mobile.jpg",
+        "product-desktop": "url('./images/image-product-desktop.jpg')"
+      },
     colors:{
       cyan: "hsl(158, 36%, 37%)",
       cream: "hsl(30, 38%, 92%)",
