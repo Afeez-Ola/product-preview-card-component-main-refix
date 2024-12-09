@@ -13,11 +13,14 @@ module.exports = {
         "product-desktop": "url('./images/image-product-desktop.jpg')"
       },
     colors:{
-      cyan: "hsl(158, 36%, 37%)",
+      cyan:{
+        default:"hsl(158, 36%, 37%)", 
+        dark: "#1A4032"
+      } ,
       cream: "hsl(30, 38%, 92%)",
       blue: {
-        dark: "hsl(212, 21%, 14%)",
-        default: "hsl(228, 12%, 48%)",
+        default: "hsl(212, 21%, 14%)",
+        dark: "hsl(228, 12%, 48%)",
 
       },
       white: "hsl(0, 0%, 100%)",
