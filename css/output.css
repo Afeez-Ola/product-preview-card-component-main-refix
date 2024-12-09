@@ -823,14 +823,14 @@ video {
   line-height: 1.75rem;
 }
 
-.text-xs {
-  font-size: 0.75rem;
-  line-height: 1rem;
-}
-
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
+}
+
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
 }
 
 .font-bold {
@@ -855,12 +855,12 @@ video {
 
 .text-blue-dark {
   --tw-text-opacity: 1;
-  color: hsl(228 12% 48% / var(--tw-text-opacity, 1));
+  color: hsl(212 21% 14% / var(--tw-text-opacity, 1));
 }
 
 .text-blue-default {
   --tw-text-opacity: 1;
-  color: hsl(212 21% 14% / var(--tw-text-opacity, 1));
+  color: hsl(228 12% 48% / var(--tw-text-opacity, 1));
 }
 
 .text-cyan-default {
@@ -882,7 +882,7 @@ video {
 }
 
 .decoration-blue-default {
-  text-decoration-color: hsl(212, 21%, 14%);
+  text-decoration-color: hsl(228, 12%, 48%);
 }
 
 .outline {

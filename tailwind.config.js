@@ -19,8 +19,8 @@ module.exports = {
       } ,
       cream: "hsl(30, 38%, 92%)",
       blue: {
-        default: "hsl(212, 21%, 14%)",
-        dark: "hsl(228, 12%, 48%)",
+        dark: "hsl(212, 21%, 14%)",
+        default: "hsl(228, 12%, 48%)",
 
       },
       white: "hsl(0, 0%, 100%)",
