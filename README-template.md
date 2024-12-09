@@ -26,7 +26,7 @@ This is a solution to the [Product preview card component challenge on Frontend 
 ### Links
 
 - Solution URL: [Add solution URL here](https://github.com/Afeez-Ola/product-preview-card-component-main-refix)
-- Live Site URL: [Add live site URL here](https://workit-landing-page-refix.vercel.app/)
+- Live Site URL: [Add live site URL here](https://product-preview-card-component-main-refix.vercel.app/)
 
 ## My process
 
