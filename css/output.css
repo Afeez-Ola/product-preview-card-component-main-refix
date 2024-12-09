@@ -636,6 +636,23 @@ video {
   height: 0.75rem;
 }
 
+.h-auto {
+  height: auto;
+}
+
+.h-0 {
+  height: 0px;
+}
+
+.h-fit {
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.max-h-none {
+  max-height: none;
+}
+
 .w-full {
   width: 100%;
 }
@@ -660,6 +677,22 @@ video {
   max-width: 28rem;
 }
 
+.max-w-lg {
+  max-width: 32rem;
+}
+
+.max-w-96 {
+  max-width: 24rem;
+}
+
+.max-w-xl {
+  max-width: 36rem;
+}
+
+.max-w-2xl {
+  max-width: 42rem;
+}
+
 .border-collapse {
   border-collapse: collapse;
 }
@@ -670,6 +703,10 @@ video {
 
 .resize {
   resize: both;
+}
+
+.flex-row {
+  flex-direction: row;
 }
 
 .flex-col {
@@ -712,6 +749,16 @@ video {
   border-radius: 0.5rem;
 }
 
+.rounded-t-lg {
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+
+.rounded-b-lg {
+  border-bottom-right-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+}
+
 .border {
   border-width: 1px;
 }
@@ -726,6 +773,11 @@ video {
   background-color: hsl(30 38% 92% / var(--tw-bg-opacity, 1));
 }
 
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: hsl(0 0% 100% / var(--tw-bg-opacity, 1));
+}
+
 .bg-\[url\(\'\.\.\/images\/image-product-mobile\.jpg\'\)\] {
   background-image: url('../images/image-product-mobile.jpg');
 }
@@ -736,6 +788,10 @@ video {
 
 .bg-top {
   background-position: top;
+}
+
+.bg-left {
+  background-position: left;
 }
 
 .bg-no-repeat {
@@ -762,6 +818,10 @@ video {
 
 .pl-6 {
   padding-left: 1.5rem;
+}
+
+.pb-4 {
+  padding-bottom: 1rem;
 }
 
 .font-Fraunces {
@@ -851,4 +911,81 @@ video {
 
 .outline {
   outline-style: solid;
+}
+
+@media (min-width: 768px) {
+  .md\:container {
+    width: 100%;
+  }
+
+  @media (min-width: 375px) {
+    .md\:container {
+      max-width: 375px;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .md\:container {
+      max-width: 768px;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .md\:container {
+      max-width: 1024px;
+    }
+  }
+
+  @media (min-width: 1440px) {
+    .md\:container {
+      max-width: 1440px;
+    }
+  }
+
+  @media (min-width: 1536px) {
+    .md\:container {
+      max-width: 1536px;
+    }
+  }
+
+  .md\:m-auto {
+    margin: auto;
+  }
+
+  .md\:h-0 {
+    height: 0px;
+  }
+
+  .md\:h-screen {
+    height: 100vh;
+  }
+
+  .md\:h-\[unset\] {
+    height: unset;
+  }
+
+  .md\:h-fit {
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+
+  .md\:max-h-none {
+    max-height: none;
+  }
+
+  .md\:flex-row {
+    flex-direction: row;
+  }
+
+  .md\:bg-\[url\(\'\.\.\/images\/image-product-mobile\.jpg\'\)\] {
+    background-image: url('../images/image-product-mobile.jpg');
+  }
+
+  .md\:bg-\[url\(\'\.\.\/images\/image-product-desktop\.jpg\'\)\] {
+    background-image: url('../images/image-product-desktop.jpg');
+  }
+
+  .md\:bg-left {
+    background-position: left;
+  }
 }
